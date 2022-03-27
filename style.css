@@ -1,0 +1,56 @@
+
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+h1, h2 {
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+/* id selector - #idName*/
+#landing {
+    /*vh -viewport height - measurement based on the height of the web page and the device you're currently viewing the page in*/
+    height: 80vh;
+    display: flex; 
+    /* arranges the contents of an element with flex*/
+    flex-direction: column; 
+    /* centers all contents with flex as a column (horizontal) */
+    align-items: center;
+    /* center all contents with flex as a column (vertical) */
+    justify-content: center;
+}
+
+#gallery {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.tools {
+    border: 5px solid #f2f2f2;
+    padding: 25px;
+    margin :20px;
+    height: 200px;
+    width: 75%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
